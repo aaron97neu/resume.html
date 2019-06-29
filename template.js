@@ -39,12 +39,15 @@ const subsection = (info) => {
     .notes li:before {
       content:"•"; 
       font-size:11pt;
-      padding: 3pt;
+      position: absolute;
+      left: -6pt;
     }
     .notes li {
       margin: 2pt 0;
+      position: relative;
     }
     .subsection-head {
+      font-size: 10.5pt;
       display: flex;
       justify-content: space-between;
     }
@@ -52,10 +55,16 @@ const subsection = (info) => {
       font-style: italic;
     }
   </style>
-  <div class="subsection-head">
-    <span class="left-head">${info.title}</span>
-    <span class="right-head">${info.duration}</span>
-  </div>
+  ${
+    ((typeof info.title !== 'undefined') || (typeof info.duration !== 'undefined'))
+    ? html`
+      <div class="subsection-head">
+        <span class="left-head">${info.title}</span>
+        <span class="right-head">${info.duration}</span>
+      </div>`
+    : ""
+  }
+  
   <ul class="notes">
     ${info.notes.map((note) => html`<li>${note}</li>`)}
   </ul>
@@ -87,15 +96,23 @@ export const template = (resumeJson) => {
     @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,700&display=swap');
     .resume {
       font-family: 'Libre Franklin', sans-serif;
-      font-size: 11pt;
+      font-size: 10pt;
+    }
+    h1 {
+      font-size: 24pt;
+      font-weight: 700;
     }
     h2 {
       font-size: 12pt;
       font-weight: 700;
     }
-    h1 {
-      font-size: 24pt;
-      font-weight: 700;
+    html {
+      letter-spacing: 0.4pt;
+    }
+    @media print {
+      html {
+        letter-spacing: 0pt;
+      }
     }
   </style>
   <div class="resume">
