@@ -50,9 +50,10 @@ const subsection = (info) => {
       font-size: 11pt;
       display: flex;
       justify-content: space-between;
+      font-weight: 500;
     }
     .left-head {
-      font-style: italic;
+      //font-style: italic;
     }
   </style>
   ${
@@ -93,7 +94,7 @@ const section = (info) => {
 export const template = (resumeJson) => {
   return html`
   <style>
-    @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,700&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,700&display=swap');
     .resume {
       font-family: 'Libre Franklin', sans-serif;
       font-size: 10.5pt;
