@@ -47,7 +47,7 @@ const subsection = (info) => {
       position: relative;
     }
     .subsection-head {
-      font-size: 10.5pt;
+      font-size: 11pt;
       display: flex;
       justify-content: space-between;
     }
@@ -96,7 +96,7 @@ export const template = (resumeJson) => {
     @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,700&display=swap');
     .resume {
       font-family: 'Libre Franklin', sans-serif;
-      font-size: 10pt;
+      font-size: 10.5pt;
     }
     h1 {
       font-size: 24pt;
