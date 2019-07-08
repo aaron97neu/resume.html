@@ -21,7 +21,7 @@ const header = (personal) => {
   </style>
   <h1>${personal.name} </h1>
   <ul class="contact-options">
-    ${[...intersperse(personal.contact.map((option) => html`<li>${option}</li>`), html`<li>•</li>`)]}
+    ${[...intersperse(personal.contact.map((option) => html`<li>${option}</li>`), html`<li>${personal.seperator}</li>`)]}
   </ul>
   
   `;
