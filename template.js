@@ -21,7 +21,7 @@ const header = (personal) => {
   </style>
   <h1>${personal.name} </h1>
   <ul class="contact-options">
-    ${[...intersperse(personal.contact.map((option) => html`<li>${option}</li>`), html`<li>${personal.separator}</li>`)]}
+    ${[...intersperse(personal.contact.map((option) => html`<li>${option}</li>`), html`<li>${personal.seperator}</li>`)]}
   </ul>
   
   `;
@@ -94,9 +94,9 @@ const section = (info) => {
 export const template = (resumeJson) => {
   return html`
   <style>
-    @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,700&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto&display=swap');
     .resume {
-      font-family: 'Libre Franklin', sans-serif;
+      font-family: 'Roboto', sans-serif;
       font-size: 10.5pt;
     }
     h1 {
