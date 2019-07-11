@@ -33,7 +33,7 @@ const subsection = (info) => {
     .notes {
       list-style: none;
       padding-left: 0.2in;
-      margin: 0.05in 0in;
+      margin: 0.05in 0in 0.10in;
       color: #3F3F3F;
     }
     .notes li:before {
@@ -94,7 +94,7 @@ const section = (info) => {
 export const template = (resumeJson) => {
   return html`
   <style>
-    @import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto:400,500,700&display=swap');
     .resume {
       font-family: 'Roboto', sans-serif;
       font-size: 10.5pt;
