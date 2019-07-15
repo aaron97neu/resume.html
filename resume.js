@@ -1,11 +1,13 @@
+import {html} from 'https://unpkg.com/lit-html@1.1.0?module';
+
 export const resume = {
   personal: {
     name: "Aaron Neustedter",
     seperator: "",
     contact: [
       "262-278-1106",
-      "aneusted@purdue.edu",
-      "linkedin.com/in/aneustedter"
+      html`<a href='mailto:aneusted@purdue.edu'>aneusted@purdue.edu</a>`,
+      html`<a href='https://www.linkedin.com/in/aneustedter'>linkedin.com/in/aneustedter</a>`
     ],
   },
   blocks: [
@@ -25,12 +27,12 @@ export const resume = {
       subheadings: [
         {
           title: "Purdue University",
-          duration: "Fall 2016 - Spring 2020",
+          duration: "West Lafayette — Fall 2016 - Spring 2020",
           notes: [
             "Master's in Computer Science - In Progress",
             "Bachelor's in Computer Science - Software Engineering Concentration, Spring 2019", 
-            "Serves on the Purdue Waterski Team Executive Board as Treasurer",
-            "Research during undergrad centered around refactoring and implementing best software engineering practices in existing research project"
+            "Research during undergrad centered around refactoring and implementing software engineering best practices in existing research project",
+			"Serves on the Purdue Waterski Team Executive Board as Treasurer"
           ]
         },
       ]
@@ -65,7 +67,7 @@ export const resume = {
           duration: "Mequon WI — Summer 2015 - 2017",
           notes: [
             "Automated firmware tests designed to replace manual testing of Rockwell’s drives",
-            "Reduced test runtime from 4-40man-hours to 1-20mins via automation",
+            "Reduced test runtime from 4-40 man-hours to 1-20 mins via automation",
             "Built automated test infastructure to develop and run automated tests",
           ]
         }

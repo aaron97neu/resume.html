@@ -18,6 +18,10 @@ const header = (personal) => {
   .contact-options li {
     display:inline;
   }
+  a {
+	color: black;
+	text-decoration: none;
+  }
   </style>
   <h1>${personal.name} </h1>
   <ul class="contact-options">
