@@ -16,7 +16,7 @@ export const resume = {
       subheadings: [
         {
           title: "Graduate student at Purdue University pursuing a Master's in Computer Science. Customer Application Engineering\
-                    Intern for Wabtec/GE Transportation seeking a permanent position for Spring 2020",
+                    Intern for GE Transportation/Wabtec seeking a permanent position for Spring 2020",
           notes: []
         }
       ]
@@ -27,7 +27,7 @@ export const resume = {
       subheadings: [
         {
           title: "Purdue University",
-          duration: "West Lafayette — Fall 2016 - Spring 2020",
+          duration: "West Lafayette IN — Fall 2016 - Spring 2020",
           notes: [
             "Master's in Computer Science - In Progress",
             "Bachelor's in Computer Science - Software Engineering Concentration, Spring 2019", 
@@ -47,7 +47,7 @@ export const resume = {
           notes: [
             "Simulated train runs to ensure product viability of specific tracks",
             "Analyzed and advised in recreation of algorithm that aligns train data recorder information from different trains and starting points",
-            "Lead project to artificially inject error in track database to determine effects of erroneous track elevation"
+            "Led project to artificially inject error in track database to determine effects of incorrect track elevation"
           ]
         },
         
@@ -67,8 +67,8 @@ export const resume = {
           duration: "Mequon WI — Summer 2015 - 2017",
           notes: [
             "Automated firmware tests designed to replace manual testing of Rockwell’s drives",
-            "Reduced test runtime from 4-40 man-hours to 1-20 mins via automation",
-            "Built automated test infastructure to develop and run automated tests",
+            "Reduced test runtime from 4-40 man-hours to 1-20 mins via automated tests",
+            "Built automated test infrastructure to develop and run automated tests",
           ]
         }
       ]
@@ -94,8 +94,7 @@ export const resume = {
         {
         notes: [
           "Mentored West Lafayette FRC Team 1747 high school students",
-          "Eagle Scout service project centered on creating awareness for organ donation that signed \
-                up over 120 people to become organ donors",
+          "Eagle Scout service project created organ donation campaign resulting in over 120 people becoming organ donors",
           "Hunted invasive lionfish and surveyed queen conch and reef health in Belize",
           "Taught English and built an educational hydroponic farming system for children in Costa Rica"
         ]
