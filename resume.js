@@ -16,7 +16,7 @@ export const resume = {
       subheadings: [
         {
           title: "Graduate student at Purdue University pursuing a Master's in Computer Science. Customer Application Engineering\
-                    Intern for Wabtec/GE Transportation seeking a permanent position for Spring 2020",
+                    Intern for GE Transportation/Wabtec seeking a permanent position for Spring 2020",
           notes: []
         }
       ]
@@ -27,12 +27,12 @@ export const resume = {
       subheadings: [
         {
           title: "Purdue University",
-          duration: "West Lafayette — Fall 2016 - Spring 2020",
+          duration: "West Lafayette IN • Fall 2016 - Spring 2020",
           notes: [
-            "Master's in Computer Science - In Progress",
+            "Master's in Computer Science, Spring 2020",
             "Bachelor's in Computer Science - Software Engineering Concentration, Spring 2019", 
             "Research during undergrad centered around refactoring and implementing software engineering best practices in existing research project",
-			"Serves on the Purdue Waterski Team Executive Board as Treasurer"
+			"Treasurer for the Purdue Waterski Team"
           ]
         },
       ]
@@ -43,32 +43,32 @@ export const resume = {
       subheadings: [
         {
           title: "GE Transportation/Wabtec - Customer Application Engineering Intern",
-          duration: "Melbourne FL — Summer 2019",
+          duration: "Melbourne FL • Summer 2019",
           notes: [
             "Simulated train runs to ensure product viability of specific tracks",
             "Analyzed and advised in recreation of algorithm that aligns train data recorder information from different trains and starting points",
-            "Lead project to artificially inject error in track database to determine effects of erroneous track elevation"
+            "Led project to artificially inject error in track database to determine effects of incorrect track elevation"
           ]
         },
         
         {
           title: "CNH Industrial - Systems/Model Based Design Engineering Intern",
-          duration: "New Holland PA — Summer 2018",
+          duration: "New Holland PA • Summer 2018",
           notes: [
             "Supported the Case IH Flagship Combine team with the development of the model year 2019 combine",
             "Modeled and programmed the combine's automatic cleaning fan function",
             "Verified safety-critical communication protocol between the control handle and processing module",
-            "Assisted in creation of a combine cabin simulator to enable testing of embedded code in a semi-virtual environment"
+            "Created a combine cabin simulator to enable testing of embedded code in a semi-virtual environment"
           ]
         },
         
         {
           title: "Rockwell Automation - Firmware Test Engineering Intern",
-          duration: "Mequon WI — Summer 2015 - 2017",
+          duration: "Mequon WI • Summer 2015 - 2017",
           notes: [
             "Automated firmware tests designed to replace manual testing of Rockwell’s drives",
-            "Reduced test runtime from 4-40 man-hours to 1-20 mins via automation",
-            "Built automated test infastructure to develop and run automated tests",
+            "Reduced test runtime from 4-40 man-hours to 1-20 mins via automated tests",
+            "Built automated test infrastructure to develop and run automated tests",
           ]
         }
       ]
@@ -80,7 +80,7 @@ export const resume = {
         {
           notes: [
             "Proficient in C/C++, Python, Bash, and Java",
-            "Familiar with ARM/x86, C# and Matlab/Simulink",
+            "Familiar with ARM/x86, C#, R and Matlab/Simulink",
             "Formally educated and experienced working in Scrum/SAFe development methodologies",
             "Repurposed a pair of desktop computers for use as Linux servers for backup, data storage, media streaming, and software development"
           ]
@@ -94,8 +94,7 @@ export const resume = {
         {
         notes: [
           "Mentored West Lafayette FRC Team 1747 high school students",
-          "Eagle Scout service project centered on creating awareness for organ donation that signed \
-                up over 120 people to become organ donors",
+          "Eagle Scout service project created organ donation campaign resulting in over 120 people becoming organ donors",
           "Hunted invasive lionfish and surveyed queen conch and reef health in Belize",
           "Taught English and built an educational hydroponic farming system for children in Costa Rica"
         ]
