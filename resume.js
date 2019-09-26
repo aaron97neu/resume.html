@@ -15,8 +15,8 @@ export const resume = {
       title: "Summary",
       subheadings: [
         {
-          title: "Graduate student at Purdue University pursuing a Master's in Computer Science. Customer Application Engineering\
-                    Intern for GE Transportation/Wabtec seeking a permanent position for Spring 2020",
+          title: "Graduate student at Purdue University pursuing a Master's in Computer Science. Expected graduation Fall 2020,\
+			Seeking an internship for Summer 2020",
           notes: []
         }
       ]
@@ -27,9 +27,9 @@ export const resume = {
       subheadings: [
         {
           title: "Purdue University",
-          duration: "West Lafayette IN • Fall 2016 - Spring 2020",
+          duration: "West Lafayette IN • Fall 2016 - Fall 2020",
           notes: [
-            "Master's in Computer Science, Spring 2020",
+            "Master's in Computer Science, Fall 2020",
             "Bachelor's in Computer Science - Software Engineering Concentration, Spring 2019", 
             "Research during undergrad centered around refactoring and implementing software engineering best practices in existing research project",
 			"Treasurer for the Purdue Waterski Team"
