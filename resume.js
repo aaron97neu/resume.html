@@ -30,8 +30,9 @@ export const resume = {
           duration: "West Lafayette IN • Fall 2016 - Fall 2020",
           notes: [
             "Master's in Computer Science, Fall 2020",
+            "Graduate research centered around developing agricultural IOT devices that stream information about farm machinery usage",
             "Bachelor's in Computer Science - Software Engineering Concentration, Spring 2019", 
-            "Research during undergrad centered around refactoring and implementing software engineering best practices in existing research project",
+            //"Undergraduate centered around refactoring and implementing software engineering best practices in existing research project",
 			"Treasurer for the Purdue Waterski Team"
           ]
         },
