@@ -15,8 +15,8 @@ export const resume = {
       title: "Summary",
       subheadings: [
         {
-          title: "Graduate student at Purdue University pursuing a Master's in Computer Science. Expected graduation Fall 2020,\
-			Seeking an internship for Summer 2020",
+          title: "Software Engineer pursuing Masters degree in Computer Science at Purdue University.\
+          Seeking a internship for Summer 2020 and a permanent position Spring 2021",
           notes: []
         }
       ]
@@ -30,10 +30,10 @@ export const resume = {
           duration: "West Lafayette IN • Fall 2016 - Fall 2020",
           notes: [
             "Master's in Computer Science, Fall 2020",
-            "Graduate research centered around developing agricultural IOT devices that stream information about farm machinery usage",
+            "As Graduate Research Assistant developed agricultural IoT devices that stream information about farm machinery usage",
             "Bachelor's in Computer Science - Software Engineering Concentration, Spring 2019", 
             //"Undergraduate centered around refactoring and implementing software engineering best practices in existing research project",
-			"Treasurer for the Purdue Waterski Team"
+			"Treasurer for the Purdue Waterski Team 2018 - 2019, collegiate 3 event skier"
           ]
         },
       ]
@@ -46,8 +46,8 @@ export const resume = {
           title: "GE Transportation/Wabtec - Customer Application Engineering Intern",
           duration: "Melbourne FL • Summer 2019",
           notes: [
-            "Simulated train runs to ensure product viability of specific tracks",
-            "Analyzed and advised in recreation of algorithm that aligns train data recorder information from different trains and starting points",
+            "Simulated train runs with Matlab to ensure product viability of specific tracks",
+            "Analyzed and advised in re-creation of algorithm that aligns train data recorder information from different trains and starting points",
             "Led project to artificially inject error in track database to determine effects of incorrect track elevation"
           ]
         },
@@ -57,7 +57,7 @@ export const resume = {
           duration: "New Holland PA • Summer 2018",
           notes: [
             "Supported the Case IH Flagship Combine team with the development of the model year 2019 combine",
-            "Modeled and programmed the combine's automatic cleaning fan function",
+            "Modeled and corrected the combine's automatic cleaning fan function",
             "Verified safety-critical communication protocol between the control handle and processing module",
             "Created a combine cabin simulator to enable testing of embedded code in a semi-virtual environment"
           ]
@@ -76,14 +76,14 @@ export const resume = {
     },
     
     {
-      title: "Skills",
+      title: "Software Development Skills",
       subheadings: [
         {
           notes: [
             "Proficient in C/C++, Python, Bash, and Java",
             "Familiar with ARM/x86, C#, R and Matlab/Simulink",
             "Formally educated and experienced working in Scrum/SAFe development methodologies",
-            "Repurposed a pair of desktop computers for use as Linux servers for backup, data storage, media streaming, and software development"
+            "Re-purposed a pair of desktop computers for use as Linux servers for personal use as backup, data storage, media streaming, and software development"
           ]
         }
       ]
@@ -95,8 +95,8 @@ export const resume = {
         {
         notes: [
           "Mentored West Lafayette FRC Team 1747 high school students",
-          "Eagle Scout service project created organ donation campaign resulting in over 120 people becoming organ donors",
-          "Hunted invasive lionfish and surveyed queen conch and reef health in Belize",
+          "Eagle Scout service project created organ donation campaign resulting in over 120 people becoming donors",
+          "Advanced Open Water diver, Hunted invasive lionfish and surveyed queen conch and reef health in Belize",
           "Taught English and built an educational hydroponic farming system for children in Costa Rica"
         ]
       }
