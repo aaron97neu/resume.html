@@ -3,7 +3,7 @@ import {html} from 'https://unpkg.com/lit-html@1.1.0?module';
 export const resume = {
   personal: {
     name: "Aaron Neustedter",
-    seperator: "",
+    separator: "",
     contact: [
       "262-278-1106",
       html`<a href='mailto:aneusted@purdue.edu'>aneusted@purdue.edu</a>`,
@@ -30,10 +30,7 @@ export const resume = {
           duration: "West Lafayette IN • Fall 2016 - Fall 2020",
           notes: [
             "Master's in Computer Science, Fall 2020",
-            "Developed agricultural IoT devices that provide machine edge computing and stream \
-               machine telematics while Graduate Research Assistant",
             "Bachelor's in Computer Science - Software Engineering Concentration, Spring 2019", 
-            //"Undergraduate centered around refactoring and implementing software engineering best practices in existing research project",
             "Treasurer for the Purdue Waterski Team 2018 - 2019, collegiate 3 event skier"
           ]
         },
@@ -43,6 +40,15 @@ export const resume = {
     {
       title: "Experience",
       subheadings: [
+        {
+          title: "Purdue University - Graduate Research Assistant",
+          duration: "West Lafayette, IN • Fall 2019 - Fall 2020",
+          notes: [
+            "Developed various applications and tools for The Purdue Open Ag Technology and Systems Center",
+            "Architected new software stack for existing ISOBlue edge computing device that runs on tractors, combines, and other agricultural equipment",
+            "ISOBlue Avena stack hosts Docker containers on Toradex ARM SBCs running Debian Linux. Uses Wireguard for VPN connection and Ansible to deploy and update nodes",
+          ]
+        },
         {
           title: "GE Transportation/Wabtec - Customer Application Engineering Intern",
           duration: "Melbourne FL • Summer 2019",
@@ -60,7 +66,6 @@ export const resume = {
             "Supported the Case IH Flagship Combine team with the development of the model year 2019 combine",
             "Modeled and corrected the combine's automatic cleaning fan function",
             "Verified safety-critical communication protocol between the control handle and processing module",
-            "Created a combine cabin simulator to enable testing of embedded code in a semi-virtual environment"
           ]
         },
         
@@ -84,7 +89,6 @@ export const resume = {
             "Proficient in C/C++, Python, Bash, Type/JavaScript, and Java",
             "Familiar with ARM/x86, C#, R and Matlab/Simulink",
             "Formally educated and experienced working in Scrum/SAFe development methodologies",
-            "Re-purposed a pair of desktop computers for use as Linux servers for personal use as backup, data storage, media streaming, and software development"
           ]
         }
       ]
