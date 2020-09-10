@@ -18,10 +18,14 @@ const header = (personal) => {
   .contact-options li {
     display:inline;
   }
+  a {
+	color: black;
+	text-decoration: none;
+  }
   </style>
   <h1>${personal.name} </h1>
   <ul class="contact-options">
-    ${[...intersperse(personal.contact.map((option) => html`<li>${option}</li>`), html`<li>${personal.separator}</li>`)]}
+    ${[...intersperse(personal.contact.map((option) => html`<li>${option}</li>`), html`<li>${personal.seperator}</li>`)]}
   </ul>
   
   `;
@@ -33,7 +37,7 @@ const subsection = (info) => {
     .notes {
       list-style: none;
       padding-left: 0.2in;
-      margin: 0.05in 0in;
+      margin: 0.05in 0in 0.10in;
       color: #3F3F3F;
     }
     .notes li:before {
@@ -94,9 +98,9 @@ const section = (info) => {
 export const template = (resumeJson) => {
   return html`
   <style>
-    @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,700&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto:400,500,700&display=swap');
     .resume {
-      font-family: 'Libre Franklin', sans-serif;
+      font-family: 'Roboto', sans-serif;
       font-size: 10.5pt;
     }
     h1 {
