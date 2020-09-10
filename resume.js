@@ -16,7 +16,7 @@ export const resume = {
       subheadings: [
         {
           title: "Software Engineer pursuing Masters degree in Computer Science at Purdue University.\
-          Seeking a internship for Summer 2020 and a permanent position Spring 2021",
+                    Seeking a permanent position Spring 2021",
           notes: []
         }
       ]
@@ -30,10 +30,11 @@ export const resume = {
           duration: "West Lafayette IN • Fall 2016 - Fall 2020",
           notes: [
             "Master's in Computer Science, Fall 2020",
-            "As Graduate Research Assistant developed agricultural IoT devices that stream information about farm machinery usage",
+            "Developed agricultural IoT devices that provide machine edge computing and stream \
+               machine telematics while Graduate Research Assistant",
             "Bachelor's in Computer Science - Software Engineering Concentration, Spring 2019", 
             //"Undergraduate centered around refactoring and implementing software engineering best practices in existing research project",
-			"Treasurer for the Purdue Waterski Team 2018 - 2019, collegiate 3 event skier"
+            "Treasurer for the Purdue Waterski Team 2018 - 2019, collegiate 3 event skier"
           ]
         },
       ]
@@ -80,7 +81,7 @@ export const resume = {
       subheadings: [
         {
           notes: [
-            "Proficient in C/C++, Python, Bash, and Java",
+            "Proficient in C/C++, Python, Bash, Type/JavaScript, and Java",
             "Familiar with ARM/x86, C#, R and Matlab/Simulink",
             "Formally educated and experienced working in Scrum/SAFe development methodologies",
             "Re-purposed a pair of desktop computers for use as Linux servers for personal use as backup, data storage, media streaming, and software development"
@@ -96,7 +97,7 @@ export const resume = {
         notes: [
           "Mentored West Lafayette FRC Team 1747 high school students",
           "Eagle Scout service project created organ donation campaign resulting in over 120 people becoming donors",
-          "Advanced Open Water diver, Hunted invasive lionfish and surveyed queen conch and reef health in Belize",
+          "Advanced Open Water diver, hunted invasive lionfish and surveyed queen conch and reef health in Belize",
           "Taught English and built an educational hydroponic farming system for children in Costa Rica"
         ]
       }
