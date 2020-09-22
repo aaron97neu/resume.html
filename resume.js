@@ -5,9 +5,9 @@ export const resume = {
     name: "Aaron Neustedter",
     separator: "",
     contact: [
-      "262-278-1106",
       html`<a href='mailto:aneusted@purdue.edu'>aneusted@purdue.edu</a>`,
-      html`<a href='https://www.linkedin.com/in/aneustedter'>linkedin.com/in/aneustedter</a>`
+      html`<a href='https://www.linkedin.com/in/aneustedter'>linkedin.com/in/aneustedter</a>`,
+      html`<a href='https://github.com/aaron97neu'>github.com/aaron97neu</a>`
     ],
   },
   blocks: [
@@ -16,7 +16,7 @@ export const resume = {
       subheadings: [
         {
           title: "Software Engineer pursuing Masters degree in Computer Science at Purdue University.\
-                    Seeking a permanent position Spring 2021",
+                    Seeking a full time position after December 2020 graduation",
           notes: []
         }
       ]
@@ -27,10 +27,10 @@ export const resume = {
       subheadings: [
         {
           title: "Purdue University",
-          duration: "West Lafayette IN • Fall 2016 - Fall 2020",
+          duration: "West Lafayette IN • Fall 2016 - Winter 2020",
           notes: [
-            "Master's in Computer Science, Fall 2020",
-            "Bachelor's in Computer Science - Software Engineering Concentration, Spring 2019", 
+            "Master's in Computer Science, December 2020",
+            "Bachelor's in Computer Science - Software Engineering Concentration, May 2019", 
             "Treasurer for the Purdue Waterski Team 2018 - 2019, collegiate 3 event skier"
           ]
         },
@@ -42,7 +42,7 @@ export const resume = {
       subheadings: [
         {
           title: "Purdue University - Graduate Research Assistant",
-          duration: "West Lafayette, IN • Fall 2019 - Fall 2020",
+          duration: "West Lafayette, IN • Fall 2019 - Present",
           notes: [
             "Developed various applications and tools for The Purdue Open Ag Technology and Systems Center",
             "Architected new software stack for existing ISOBlue edge computing device that runs on tractors, combines, and other agricultural equipment",
