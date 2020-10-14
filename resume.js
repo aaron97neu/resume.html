@@ -16,7 +16,7 @@ export const resume = {
       subheadings: [
         {
           title: "Software Engineer pursuing Masters degree in Computer Science at Purdue University.\
-                    Seeking a full time position after December 2020 graduation",
+                    Seeking a full time position Spring of 2021",
           notes: []
         }
       ]
